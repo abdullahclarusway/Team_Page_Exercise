@@ -1,0 +1,102 @@
+html,
+body {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#header-left,
+#header-right {
+    width: 50%;
+}
+
+#p1 {
+    font-size: 36px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    line-height: 48px;
+    color: #000;
+}
+
+#p2,
+#p3 {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000;
+}
+
+#p2 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.container {
+    margin: 50px auto 50px;
+    padding: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.imgs {
+    width: 250px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_left {
+    display: flex;
+    margin: 20px;
+    justify-content: flex-start;
+}
+
+.title {
+    writing-mode: vertical-lr;
+}
+
+.main2,
+.main5 {
+    margin-top: 100px;
+}
+
+.names {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+    margin: 0 20px;
+}
+
+.title {
+    font-family: 'PT Serif', serif;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 16px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 760px) {
+    #p1 {
+        width: 100%;
+    }
+
+    #header-right {
+        width: 100%;
+    }
+}
